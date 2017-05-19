@@ -10,6 +10,10 @@ generateSampleJob.with {
             }
         }
     }
-	maven ('verifiy')
+	maven {
+		mavenInstallation('maven_home')
+		goals('package')
+	}
+	} 
 	}
 }  
