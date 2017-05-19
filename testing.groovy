@@ -1,3 +1,9 @@
+folder("Cartridge") {
+    
+}
+def folder = "Cartridge"
+def generatejob = folder + "/cart2"
+
 def generateSampleJob = freeStyleJob("cart2")
 
 generateSampleJob.with {
@@ -13,6 +19,7 @@ generateSampleJob.with {
 	maven {
 		mavenInstallation('MavenHOME')
 		goals('package')
+		
 	}
 	} 
 	
