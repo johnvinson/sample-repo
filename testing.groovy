@@ -4,9 +4,9 @@ folder("Cartridge") {
 def folder = "Cartridge"
 def generatejob = folder + "/cart2"
 
-def generateSampleJob = freeStyleJob("cart2")
+freeStyleJob("cart2")
+{
 
-generateSampleJob.with {
 	steps {
 	scm {
         git {
