@@ -4,7 +4,7 @@ folder("Cartridge") {
 def folder = "Cartridge"
 def generatejob = folder + "/cart2"
 
-freeStyleJob("cart2")
+freeStyleJob(generatejob)
 {
 
 	steps {
