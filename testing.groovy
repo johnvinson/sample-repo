@@ -1,7 +1,7 @@
-folder( "Cartridge" ) {
+folder( "hello" ) {
     
 }
-def folder = "Cartridge"
+def folder = "hello"
 def generatejob = folder + "/cart2"
 
 freeStyleJob(generatejob)
