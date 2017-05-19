@@ -15,5 +15,5 @@ generateSampleJob.with {
 		goals('package')
 	}
 	} 
-	}
+	
 }  
