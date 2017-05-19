@@ -11,7 +11,7 @@ generateSampleJob.with {
         }
     }
 	maven {
-		mavenInstallation('maven_home')
+		mavenInstallation('MavenHOME')
 		goals('package')
 	}
 	} 
